@@ -1,0 +1,21 @@
+{
+  "userName": "reader@example.com",
+  "password": "Reader@123"
+}
+To start server
+cd C:\Users\Ashokkumarr\Downloads\Redis-x64-3.0.504
+
+redis-server.exe
+
+To check running
+cd C:\Users\Ashokkumarr\Downloads\Redis-x64-3.0.504
+redis-cli.exe
+ping-PONG
+
+
+To check data
+cd C:\Users\Ashokkumarr\Downloads\Redis-x64-3.0.504
+redis-cli -h localhost -p 6379
+KEYS *
+GET mykey
+HGETALL mykey
